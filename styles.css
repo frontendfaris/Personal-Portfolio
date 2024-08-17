@@ -316,6 +316,9 @@ footer .small-title {
   .big-title {
     font-size: 2rem;
   }
+  #navbar {
+    margin: 0 auto;
+  }
   #ol {
     justify-content: center;
     right: 50%;
@@ -325,7 +328,7 @@ footer .small-title {
     display: none;
   }
   .profile-container {
-    margin: 0 auto;
+    margin: 3px auto 0 auto;
     right: 0;
   }
 }
