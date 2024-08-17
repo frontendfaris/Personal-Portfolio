@@ -1,0 +1,331 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a2125;
+  padding: 0 100px;
+}
+
+section {
+  min-height: 100vh;
+  border-left: 1px solid #66fcf1;
+  border-right: 1px solid #66fcf1;
+}
+
+header {
+  background-color: #0a2125f8;
+  box-shadow: 0px 5px 60px 1px rgb(1, 20, 27);
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 60px;
+  z-index: 11;
+}
+
+#navbar {
+  position: relative;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+ol {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  right: 0;
+}
+
+li {
+  margin: 0px 5px;
+  position: relative;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #def2f1;
+  font-family: "Major Mono Display";
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  color: #66fcf1;
+  font-size: 1.04rem;
+}
+
+#landing-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.journey-container {
+  position: absolute;
+  top: 110%;
+  right: 3.5%;
+}
+
+#help-para {
+  font-family: "Staatliches";
+  font-weight: 600;
+  font-family: "Major Mono Display", monospace;
+  background-color: #0a2125;
+  z-index: 12;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.image-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  right: 4%;
+  top: 118%;
+
+  max-width: 700px;
+}
+
+.profile-container {
+  position: absolute;
+  right: 15%;
+  top: 150%;
+  background: linear-gradient(#0a2125c3, #0a2125c3),
+    url(media/Farisadmiringtheart.jpeg);
+  background-size: cover;
+  background-repeat: none;
+  border-radius: 3%;
+  width: 310px;
+  height: 310px;
+  border: 0.8px solid #66fcf1;
+  box-shadow: 8px 8px 0px #0d2428, 10px 9px 1.5px 1px #66fcf1;
+}
+
+.profile-container:hover {
+  background: url(media/Farisadmiringtheart.jpeg);
+  background-size: cover;
+  background-repeat: none;
+  transform: scale(1.05);
+  box-shadow: 8px 8px 0px #0d2428, 10px 9px 1.5px 1px #def2f1;
+  border: 2px solid white;
+}
+
+#about-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.about-title {
+  color: #45a29e;
+  font-size: 2rem;
+  margin: 0;
+  padding-left: 3px;
+}
+
+#about-page .title.paragraph {
+  border-bottom: 1px solid #66fcf1;
+}
+
+span {
+  font-size: 20px;
+  color: #66fcf1;
+}
+
+.title {
+  display: block;
+  padding: 0.2rem 0.5rem;
+  font-family: "Anton";
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: 5px;
+  padding: 3px 0;
+}
+
+.small-title {
+  color: #def2f1;
+  font-size: 1rem;
+  font-family: "Arvo";
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+.second.big-title {
+  color: #45a29e;
+}
+
+.big-title {
+  font-size: 4rem;
+  margin: 0;
+  color: #66fcf1;
+  padding-left: 3px;
+}
+
+.title.paragraph {
+  max-width: 56%;
+}
+
+p {
+  color: #def2f1;
+  line-height: 1.7;
+  font-size: 0.92rem;
+  font-weight: 50;
+  font-family: "Arvo";
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.ebook-link {
+  text-decoration: none;
+  color: #66fcf1;
+  background-color: transparent;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  border: 1.9px solid #66fcf1;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  font-size: 0.9rem;
+  font-family: "Arvo";
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.ebook-link:hover {
+  box-shadow: 1.5px 4px 4px #66fcf1, -1.5px 0.5px 4px #66fcf1;
+}
+
+.logo-link:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  animation: ease-in;
+}
+
+#contact-page {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 6.1rem;
+}
+
+.contact.paragraph {
+  max-width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+#cont-para {
+  margin-top: 15px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.form-container .big-title {
+  animation: heartbeat 1s infinite;
+}
+
+footer .small-title {
+  font-size: larger;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(1.1);
+  }
+}
+
+.cont-icons:hover {
+  transform: scale(2);
+  border: #66fcf1 1px solid;
+  border-radius: 3px;
+}
+
+.linkedin img {
+  background-color: white;
+  border-radius: 3px;
+}
+
+@media (max-width: 1132px) {
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #help-para {
+    display: none;
+  }
+  .title.paragraph {
+    max-width: 80%;
+  }
+  body {
+    padding: 0 50px;
+  }
+  .profile-container {
+    position: relative;
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 772px) {
+  .image-container {
+    position: relative;
+    flex-direction: row;
+    margin: auto;
+  }
+  .title.paragraph {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 430px) {
+  body {
+    padding: 0px;
+  }
+  .big-title {
+    font-size: 2rem;
+  }
+  #ol {
+    justify-content: center;
+    right: 50%;
+    left: 50%;
+  }
+  .image-container {
+    display: none;
+  }
+  .profile-container {
+    margin: 0 auto;
+    right: 0;
+  }
+}
